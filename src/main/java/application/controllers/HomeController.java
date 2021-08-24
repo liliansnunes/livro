@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestedMethod;
 public class HomeController{
     @RequestMapping(method=RequestedMethod.GET)
     public String index(){
-        return "home/index.jsp"
+        return "home/index.jsp";
     }
 }
