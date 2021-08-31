@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
     @Controller
 public class HomeController{
-    @RequestMapping(RequestedMethod.GET)
+    RequestMappingmethod=RequestedMethod.GET)
     public String index(){
         return "home/index.jsp";
     }
